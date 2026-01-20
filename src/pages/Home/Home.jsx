@@ -208,12 +208,12 @@ const Home = () => {
                     <p className="description">
                       Inscrivez-vous en quelques secondes avec votre email ou numéro de téléphone.
                     </p>
-                    <a className="read-more-button" href="/register">
+                    <a className="read-more-button" href="register">
                       <i className="feather-arrow-right"></i>
                     </a>
                   </div>
                 </div>
-                <a className="over-link" href="/register"></a>
+                <a className="over-link" href="register"></a>
               </div>
             </div>
 
@@ -229,12 +229,12 @@ const Home = () => {
                     <p className="description">
                       Votez en toute sécurité sur les événements qui vous intéressent.
                     </p>
-                    <a className="read-more-button" href="/events">
+                    <a className="read-more-button" href="events">
                       <i className="feather-arrow-right"></i>
                     </a>
                   </div>
                 </div>
-                <a className="over-link" href="/events"></a>
+                <a className="over-link" href="events"></a>
               </div>
             </div>
 
@@ -250,12 +250,12 @@ const Home = () => {
                     <p className="description">
                       Organisez vos propres consultations et votes en ligne.
                     </p>
-                    <a className="read-more-button" href="/create-event">
+                    <a className="read-more-button" href="create-event">
                       <i className="feather-arrow-right"></i>
                     </a>
                   </div>
                 </div>
-                <a className="over-link" href="/create-event"></a>
+                <a className="over-link" href="create-event"></a>
               </div>
             </div>
 
@@ -271,12 +271,12 @@ const Home = () => {
                     <p className="description">
                       Consultez les résultats en temps réel avec des statistiques détaillées.
                     </p>
-                    <a className="read-more-button" href="/results">
+                    <a className="read-more-button" href="results">
                       <i className="feather-arrow-right"></i>
                     </a>
                   </div>
                 </div>
-                <a className="over-link" href="/results"></a>
+                <a className="over-link" href="results"></a>
               </div>
             </div>
           </div>
