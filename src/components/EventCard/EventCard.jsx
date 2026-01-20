@@ -33,9 +33,6 @@ const EventCard = ({ event }) => {
             <span className="number">{event.status === 'active' ? 'Actif' : 'Terminé'}</span>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default EventCard;
+         {event.endDate && ( <div className="days-left"> {calculateDaysLeft(event.endDate)} jours restants </div> )} </div> </div> ); }; 
+         
+         export default EventCard;

@@ -204,7 +204,7 @@ const Home = () => {
                   </div>
                   <div className="subtitle">Étape 1</div>
                   <div className="content">
-                    <h4 className="title"><a href="#">Créez votre compte</a></h4>
+                    <h4 className="title"><a href="/login">Créez votre compte</a></h4>
                     <p className="description">
                       Inscrivez-vous en quelques secondes avec votre email ou numéro de téléphone.
                     </p>
@@ -225,7 +225,7 @@ const Home = () => {
                   </div>
                   <div className="subtitle">Étape 2</div>
                   <div className="content">
-                    <h4 className="title"><a href="#">Participez aux votes</a></h4>
+                    <h4 className="title"><a href="competitions">Participez aux votes</a></h4>
                     <p className="description">
                       Votez en toute sécurité sur les événements qui vous intéressent.
                     </p>
@@ -246,7 +246,7 @@ const Home = () => {
                   </div>
                   <div className="subtitle">Étape 3</div>
                   <div className="content">
-                    <h4 className="title"><a href="#">Créez un événement</a></h4>
+                    <h4 className="title"><a href="creat-event">Créez un événement</a></h4>
                     <p className="description">
                       Organisez vos propres consultations et votes en ligne.
                     </p>
@@ -267,7 +267,7 @@ const Home = () => {
                   </div>
                   <div className="subtitle">Étape 4</div>
                   <div className="content">
-                    <h4 className="title"><a href="#">Analysez les résultats</a></h4>
+                    <h4 className="title"><a href="results">Analysez les résultats</a></h4>
                     <p className="description">
                       Consultez les résultats en temps réel avec des statistiques détaillées.
                     </p>

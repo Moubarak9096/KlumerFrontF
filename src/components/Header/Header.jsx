@@ -55,7 +55,7 @@ const Header = () => {
           <div className="header-right">
             {/* Barre de recherche */}
             <div className="setting-option d-none d-lg-block">
-              <form className="search-form-wrapper" action="#">
+              <form className="search-form-wrapper">
                 <input type="search" placeholder="Rechercher un événement..." aria-label="Search" />
                 <div className="search-icon">
                   <button><i className="feather-search"></i></button>
@@ -105,7 +105,7 @@ const Header = () => {
                         <li><a href="/my-events">Mes Événements</a></li>
                         <li><a href="/my-votes">Mes Votes</a></li>
                         <li><a href="/settings">Paramètres</a></li>
-                        <li><a href="#" onClick={handleLogout}>Déconnexion</a></li>
+                        <li><a href="/home" onClick={handleLogout}>Déconnexion</a></li>
                       </ul>
                     </div>
                   </div>
@@ -166,7 +166,7 @@ const Header = () => {
                   <>
                     <li><a href="/create-event" onClick={() => setIsMobileMenuOpen(false)} className="btn btn-primary">Créer Événement</a></li>
                     <li><a href="/profile" onClick={() => setIsMobileMenuOpen(false)}>Mon Profil</a></li>
-                    <li><a href="#" onClick={(e) => { e.preventDefault(); handleLogout(); setIsMobileMenuOpen(false); }}>Déconnexion</a></li>
+                    <li><a href="home" onClick={(e) => { e.preventDefault(); handleLogout(); setIsMobileMenuOpen(false); }}>Déconnexion</a></li>
                   </>
                 ) : (
                   <li><a href="/login" onClick={() => setIsMobileMenuOpen(false)} className="btn btn-primary">Se connecter</a></li>
